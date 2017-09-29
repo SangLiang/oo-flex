@@ -1,0 +1,30 @@
+{
+  "name": "oo-flex",
+  "version": "0.0.1",
+  "description": "Object-oriented Flex layout",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SangLiang/oo-flex.git"
+  },
+  "keywords": [
+    "Flex"
+  ],
+  "author": "Sangliang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SangLiang/oo-flex/issues"
+  },
+  "homepage": "https://github.com/SangLiang/oo-flex#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}
