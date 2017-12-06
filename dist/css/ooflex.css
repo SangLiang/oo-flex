@@ -3,6 +3,7 @@
  *    ooflex css
  *    面向移动端的flex布局库，使用面相对象css思想设计
  *    author: Sangliang
+ *    data:2017-12-06
  */
 /* resetCss */
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -51,6 +52,10 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+a {
+  color: black;
+  text-decoration: none; }
 
 /* flex */
 .flex {
@@ -127,6 +132,20 @@ table {
   -moz-flex: 3;
   -ms-flex: 3;
   flex: 3; }
+
+.flex-4 {
+  -webkit-box-flex: 4;
+  -webkit-flex: 4;
+  -moz-flex: 4;
+  -ms-flex: 4;
+  flex: 4; }
+
+.flex-5 {
+  -webkit-box-flex: 5;
+  -webkit-flex: 5;
+  -moz-flex: 5;
+  -ms-flex: 5;
+  flex: 5; }
 
 /* 子容器交叉轴分布方式 */
 .flex-align-center {
